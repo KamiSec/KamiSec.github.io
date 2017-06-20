@@ -62,8 +62,8 @@ SQL sever 数据库会执行这条SQL语句，包括它后面那个用于向系�
 ## XXE
 攻击者强制XML解析器去访问攻击者指定的资源内容（可能是系统上本地文件亦或是远程系统上的文件）。
 
-推荐网址：[浅谈XXE攻击](http://www.freebuf.com/articles/web/126788.html)
- 		  [DTD/XXE 攻击笔记分享](http://www.freebuf.com/articles/web/97833.html)
+推荐网址：[浅谈XXE攻击](http://www.freebuf.com/articles/web/126788.html)<br>
+ 		  [DTD/XXE 攻击笔记分享](http://www.freebuf.com/articles/web/97833.html)<br>
           [XXE漏洞攻防](https://security.tencent.com/index.php/blog/msg/69)
 ## Xpath注入
 Xpath用于操作xml，我们通过搜索xpath来分析，提交给xpath函数的参数是否有经过安全处理。
