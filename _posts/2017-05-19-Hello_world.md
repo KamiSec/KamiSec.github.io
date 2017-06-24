@@ -10,21 +10,21 @@ tag: My Blog
   纪念本博客的成立，从typecho站的莫名服务器抽疯，到WordPress站要求备案，再到本站的搭建，中间过程中发生了各种各样灾难。（满满的泪水T-T）
 
 ### 提前声明
-  前几天TX发邮件通知，需要对网站进行备案才能继续使用，懒癌晚期的我完全没有备案的动力，只好另选一个平台搭建我新的博客。听朋友说github可以免费搭建，而且没有流量限制，立马把博客搬到这里来了。
+  前几天TX发邮件通知，需要对网站进行备案才能继续使用，懒癌晚期的我完全没有备案的动力，只好另选一个平台搭建我新的博客。听朋友说github可以免费搭建，而且没有流量限制，立马把博客搬到这里来了。<br>
   经过度娘的反复搜索，我发现大致使用的方法分为Hexo、Jekyll等，基本思路就是本地搭建然后上传到你的个人仓库中，本文对两种方法进行简单的介绍。
 
 ## 搭建前提
-  一个Github账号是你必须拥有的（用我的平台还想不注册，给你一个眼神自行体会），下面我来介绍一下Github的注册姿势。打开官网[Github](https://githubc.com)就会出现你需要的注册页面Username，Email，Password。（记住自己的Username很重要！）
+  一个Github账号是你必须拥有的（用我的平台还想不注册，给你一个眼神自行体会），下面我来介绍一下Github的注册姿势。打开官网[Github](https://githubc.com)就会出现你需要的注册页面Username，Email，Password。（记住自己的Username很重要！）<br>
   进入之后选择右上角 [Create a new repository](github.com/new),Repository name填上自己的名字yourname.github.io(yourname与你的注册用户名一致，这个就是你博客的域名了)例如，我的名字是KamiSec，就填入KamiSec.github.io。
 
 # Hexo篇
   ~使用系统：windows 7 64位，编译器：sublime text3(第一次尝试使用的是windows系统，linux系统和mac系统搭建过程差不多，详细问度娘吧)
 
 ### 环境安装（node、git）
-安装[Node.js](https://nodejs.org/en/download/)
-安装Git [Git官网](https://git-scm.com/downloads)(需要扶墙) [国内下载站](https://github.com/waylau/git-for-win)(Git for Windows)
-[Git食用教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)这里推荐的廖雪峰老师的教程
-Git安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
+安装[Node.js](https://nodejs.org/en/download/)<br>
+安装Git [Git官网](https://git-scm.com/downloads)(需要扶墙) [国内下载站](https://github.com/waylau/git-for-win)(Git for Windows)<br>
+[Git食用教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)这里推荐的廖雪峰老师的教程<br>
+Git安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！<br>
 (记得配置Git环境变量)
 
 安装完成后，还需要最后一步设置，在命令行输入：
@@ -147,7 +147,7 @@ deploy:
 ```
 <b>注意，在每个参数的: 后都要加一个空格</b>
 
-修改完毕后，进行发布：
+修改完毕后，进行发布：<br>
 在 网站本地目录/blog 下执行：
 ```
 $ hexo clean
@@ -156,8 +156,8 @@ $ hexo deploy
 ```
 登录后就可以看到自己的博客了
 ### 发表文章
-1.hexo new "创建文章"(引号中为自己文章的标题)
-2.Markdown语法编辑文章
+1.hexo new "创建文章"(引号中为自己文章的标题)<br>
+2.Markdown语法编辑文章<br>
 3.部署(所有打开CMD都是在blog目录下)
 ```
 hexo clean #清除缓存 网页正常情况下可以忽略此条命令
@@ -174,9 +174,9 @@ npm install hexo-deployer-git --save
   使用hexo测试完成之后，我又听到朋友说起一种更加简便的方法进行博客搭建，于是又重新部署了一番。
 
 ### 博客部署
-  注册一个github账号，我在这里遇到了很多坑，第一个要安装jeklly,安装完之后，导入其它人的博客，发现各种版本问题，各种版本不兼容。这里教给大家一个简答的方法，直接去[jekyll主题站](http://jekyllthemes.org/)找一个自己喜欢的主题，点进去之后，点"homepage"进入之后你会发现是一个github项目，然后直接点屏幕右上角的"forks".
-  这时候回到自己的github仓库，你会发现你拥有了一个一模一样的项目。进入项目后，点击项目的"Setting",将名字改成自己的用户名，格式：KamiSec.github.io
-  这时候，github就会自动为你分配一个博客域名,bsmali4.github.io。访问就会出现你的博客，和你fork过来的内容一模一样，包括文章内容和模版。这里只能是你的用户名＋github.io。默认一个用户只能有一个github博客，除非你充钱变强。(少年，想想吧，不充钱你会变强？)
+  注册一个github账号，我在这里遇到了很多坑，第一个要安装jeklly,安装完之后，导入其它人的博客，发现各种版本问题，各种版本不兼容。这里教给大家一个简答的方法，直接去[jekyll主题站](http://jekyllthemes.org/)找一个自己喜欢的主题，点进去之后，点"homepage"进入之后你会发现是一个github项目，然后直接点屏幕右上角的"forks".<br>
+  这时候回到自己的github仓库，你会发现你拥有了一个一模一样的项目。进入项目后，点击项目的"Setting",将名字改成自己的用户名，格式：KamiSec.github.io<br>
+  这时候，github就会自动为你分配一个博客域名,bsmali4.github.io。访问就会出现你的博客，和你fork过来的内容一模一样，包括文章内容和模版。这里只能是你的用户名＋github.io。默认一个用户只能有一个github博客，除非你充钱变强。(少年，想想吧，不充钱你会变强？)<br>
   看到自己艰难的用自己的github搭了一个别人的网站，想想是不是很气啊。没关系，可以让他变成自己的啊。(面包会有的，牛奶也会有的...)
 
  clone项目到本地 直接git clone你的项目到本地：
@@ -212,7 +212,7 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-解决方法：
+解决方法：<br>
 执行如下命令
 ```
 git pull --rebase origin master
