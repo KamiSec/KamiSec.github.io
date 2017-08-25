@@ -14,7 +14,7 @@ tag: My Blog
   经过度娘的反复搜索，我发现大致使用的方法分为Hexo、Jekyll等，基本思路就是本地搭建然后上传到你的个人仓库中，本文对两种方法进行简单的介绍。
 
 ## 搭建前提
-  一个Github账号是你必须拥有的（用我的平台还想不注册，给你一个眼神自行体会），下面我来介绍一下Github的注册姿势。打开官网[Github](https://githubc.com)就会出现你需要的注册页面Username，Email，Password。（记住自己的Username很重要！）<br>
+  一个Github账号是你必须拥有的（用我的平台还想不注册，给你一个眼神自行体会），下面我来介绍一下Github的注册姿势。打开官网[Github](https://github.com)就会出现你需要的注册页面Username，Email，Password。（记住自己的Username很重要！）<br>
   进入之后选择右上角 [Create a new repository](github.com/new),Repository name填上自己的名字yourname.github.io(yourname与你的注册用户名一致，这个就是你博客的域名了)例如，我的名字是KamiSec，就填入KamiSec.github.io。
 
 # Hexo篇
