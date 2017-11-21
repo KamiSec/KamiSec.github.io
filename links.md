@@ -17,10 +17,12 @@ title: 我的收藏
 [010](http://010.dropsec.xyz)<br>
 [DAWN](http://dawnspace.cn)<br>
 [pcat](http://www.cnblogs.com/pcat/)<br>
-[ssooking](http://www.cnblogs.com/ssooking/)<br>
+[ssooking](http://www.cnblogs.com/ssooking/)&nbsp;&nbsp;
+[ssooking](http://ssooking.ml)<br>
 [小威](https://iewoaix8736.github.io/)<br>
 [胖虎](http://www.cnblogs.com/test404)<br>
 [RcoIl](http://rcoil.me/)<br>
+[B1u3Buf4](http://xiao3c.cn/)<br>
 
 目前想到的就这么多，慢慢补充ing...
 
