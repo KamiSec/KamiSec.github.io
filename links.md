@@ -23,6 +23,7 @@ title: 我的收藏
 [胖虎](http://www.cnblogs.com/test404)<br>
 [RcoIl](http://rcoil.me/)<br>
 [B1u3Buf4](http://xiao3c.cn/)<br>
+[AresX](https://ares-x.com)<br>
 
 目前想到的就这么多，慢慢补充ing...
 
