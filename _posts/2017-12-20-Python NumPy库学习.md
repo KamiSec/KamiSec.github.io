@@ -2,7 +2,7 @@
 layout: post
 title: "Python NumPy库学习"
 date: 2017-12-20
-description: "NumPy库学习笔记"
+description: "Python NumPy库学习笔记"
 tag: 机器学习
 ---
 
