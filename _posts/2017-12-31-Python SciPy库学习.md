@@ -16,8 +16,8 @@ pip install numpy scipy matplotlib iPython jupyter pandas sympy nose
 #### Scipy子模块
 <table>
 <tr>
-  <th>模块名</td>
-  <th>功能</td>
+  <th>模块名</th>
+  <th>功能</th>
 </tr>
 <tr>
   <td>scipy.cluster</td>
