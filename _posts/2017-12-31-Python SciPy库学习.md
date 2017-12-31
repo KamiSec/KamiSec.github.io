@@ -14,23 +14,76 @@ pip install numpy scipy matplotlib iPython jupyter pandas sympy nose
 ```
 
 #### Scipy子模块
-|        模块名        |        功能      |
-|:--------------------|-----------------:|
-|scipy.cluster        |向量量化           |
-|scipy.constants      |数学常量           |
-|scipy.fftpack        |快速傅里叶变换      |
-|scipy.integrate      |积分               |
-|scipy.interpolate    |插值               |
-|scipy.io             |数据输入输出        |
-|scipy.linalg         |线性代数           |
-|scipy.ndimage        |N维图像            |
-|scipy.odr            |正交距离回归        |
-|scipy.optimize       |优化算法           |
-|scipy.signal         |信号处理           |
-|scipy.sparse         |稀疏矩阵           |
-|scipy.spatial        |空间数据结构和算法  |
-|scipy.special        |特殊数学函数       |
-|scipy.stats          |统计函数           |
+<table>
+<tr>
+  <th>模块名</td>
+  <th>功能</td>
+</tr>
+<tr>
+  <td>scipy.cluster</td>
+  <td>向量量化</td>
+</tr>
+<tr>
+  <td>scipy.constants</td>
+  <td>数学常量</td>
+</tr>
+<tr>
+  <td>scipy.fftpack</td>
+  <td>快速傅里叶变换</td>
+</tr>
+<tr>
+  <td>scipy.integrate</td>
+  <td>积分</td>
+</tr>
+<tr>
+  <td>scipy.interpolate</td>
+  <td>插值</td>
+</tr>
+<tr>
+  <td>scipy.io</td>
+  <td>插值</td>
+</tr>
+<tr>
+  <td>scipy.interpolate</td>
+  <td>数据输入输出</td>
+</tr>
+<tr>
+  <td>scipy.linalg</td>
+  <td线性代数</td>
+</tr>
+<tr>
+  <td>scipy.ndimage</td>
+  <td>N维图像</td>
+</tr>
+<tr>
+  <td>scipy.odr</td>
+  <td>正交距离回归</td>
+</tr>
+<tr>
+  <td>scipy.optimize</td>
+  <td>优化算法</td>
+</tr>
+<tr>
+  <td>scipy.signal</td>
+  <td>信号处理</td>
+</tr>
+<tr>
+  <td>scipy.sparse</td>
+  <td>稀疏矩阵</td>
+</tr>
+<tr>
+  <td>scipy.spatial</td>
+  <td>空间数据结构和算法</td>
+</tr>
+<tr>
+  <td>scipy.special</td>
+  <td>特殊数学函数</td>
+</tr>
+<tr>
+  <td>scipy.stats</td>
+  <td>统计函数</td>
+</tr>
+</table>
 
 #### 文件输入和输出：scipy.io
 ```
