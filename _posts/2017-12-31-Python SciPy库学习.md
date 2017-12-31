@@ -49,7 +49,7 @@ pip install numpy scipy matplotlib iPython jupyter pandas sympy nose
 </tr>
 <tr>
   <td>scipy.linalg</td>
-  <td线性代数</td>
+  <td>线性代数</td>
 </tr>
 <tr>
   <td>scipy.ndimage</td>
