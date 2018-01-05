@@ -24,6 +24,7 @@ title: 我的收藏
 [RcoIl](http://rcoil.me/)<br>
 [B1u3Buf4](http://xiao3c.cn/)<br>
 [AresX](https://ares-x.com)<br>
+[Jia](https://jiabinghao.github.io/)
 
 目前想到的就这么多，慢慢补充ing...
 
